@@ -3,13 +3,14 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { ContainerComponent } from './components/container/container.component';
+import { CardComponent } from './components/card.component';
+import { BlueFontComponent } from './components/styles/blue/blue-font.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContainerComponent,
-    
+    CardComponent,
+    BlueFontComponent
   ],
   imports: [
     BrowserModule
